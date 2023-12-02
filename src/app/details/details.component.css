@@ -1,0 +1,41 @@
+.details-container {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #D7C0D0;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #5A8E70;
+}
+.person {
+  margin-top: 20px;
+}
+h2 {
+  color: #000;
+}
+.info {
+  gap: 10px;
+  margin-top: 10px;
+}
+dt {
+  font-weight: bold;
+}
+.address {
+  margin-top: 10px;
+}
+.alert {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #77BA99;
+  color: #fff;
+  border-radius: 8px;
+}
