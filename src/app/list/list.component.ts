@@ -13,6 +13,12 @@ export class ListComponent implements OnInit{
     private personLsService: PersonLsService,
   ) {
   }
+  delete(index: number):void{
+    if (confirm("Do you want to delete this user?")){
+      this.personLsService.deletePerson(index);
+      this.people = this.personLsService.getAll();
+    }
+  }
   ngOnInit():void{
     this.people = this.personLsService.getAll();
   }

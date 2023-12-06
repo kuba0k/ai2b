@@ -1,0 +1,36 @@
+a {
+  display: inline-block;
+  padding: 10px;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  transition: background-color 0.3s ease;
+  border: black solid 1px;
+}
+a:hover {
+  color: #ffffff;
+  background-color: #5A8E70;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 10px;
+}
+a, button.delete {
+  margin-right: 10px;
+}
+button.delete {
+  padding: 5px 10px;
+  background-color: #D9534F;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button.delete:hover {
+  background-color: #C9302C;
+}
