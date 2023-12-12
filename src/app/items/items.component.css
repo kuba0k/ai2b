@@ -1,0 +1,13 @@
+/* Style for main section */
+main {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style for total element */
+.total {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #007bff; /* Adjust color as needed */
+}

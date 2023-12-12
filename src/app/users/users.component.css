@@ -1,0 +1,44 @@
+/* Style for main section */
+main {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Style for heading */
+h2 {
+  color: #333;
+}
+
+/* Style for the user list */
+.users {
+  list-style: none;
+  padding: 0;
+}
+
+/* Style for each user item */
+.user {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Style for role badges */
+.role-badge {
+  display: inline-block;
+  padding: 3px 8px;
+  margin-right: 5px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+/* Different styles for user and admin badges */
+.role-user {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.role-admin {
+  background-color: #f44336; /* Red */
+  color: white;
+}
